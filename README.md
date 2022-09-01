@@ -1,12 +1,15 @@
 # dbng
-Datababse enging written in Node.js
+
+Datababse engine written in Node.js
 
 ## Installation
+
 ```bash
 npm install dbng
 ```
 
 ## Usage
+
 ```typescript
 import { Database, Table } from 'dbng';
 
@@ -90,4 +93,5 @@ console.log(db2.getTable('guilds').select());
 ```
 
 ## License
+
 MIT
